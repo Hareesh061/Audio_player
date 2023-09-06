@@ -21,23 +21,23 @@
      <div class="songList"> 
         <h1 class="a"> Best for Sounds</h1>
      </div>
-
+     <div class="songItemContainer">
      <div class="songItem">
         <img src="covers/1.jpg" alt="1">
-        <span>Let me love You</span>
-        <span class="songlistplay"><span class="timestamp">05:30 <i class="far fa fa-play-circle" ></i> </span></span>
+        <span class="songName">Let me love You</span>
+        <span class="songlistplay"><span class="timestamp">05:30 <i class="far songItemPlay fa-play-circle" ></i> </span></span>
      </div>
 
      <div class="songItem">
         <img src="covers/2.jpg" alt="1">
-        <span>Let me love You</span>
-        <span class="songlistplay"><span class="timestamp">05:30 <i class="far fa fa-play-circle" ></i> </span></span>
+        <span class="songName">Let me love You</span>
+        <span class="songlistplay"><span class="timestamp">05:30 <i class="far songItemPlay fa-play-circle" ></i> </span></span>
      </div>
 
      <div class="songItem">
         <img src="covers/3.jpg" alt="1">
-        <span>Let me love You</span>
-        <span class="songlistplay"><span class="timestamp">05:30 <i class="far fa fa-play-circle" ></i> </span></span>
+        <span class="songName">Let me love You</span>
+        <span class="songlistplay"><span class="timestamp">05:30 <i class="far songItemPlay fa-play-circle" ></i> </span></span>
      </div>
 
     </div>
@@ -50,14 +50,16 @@
 
 
     <div class="bottom">
-        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <input type="range" name="range" id="myProgressBar"  value="0" min="0" max="100">
         <div class="icons">
-            <!-- fontawesome icons-->
-            <i class="fas fa-2x fa-solid fa-backward"></i>
-            <i class="fas fa-2x fa-solid fa-circle-play"></i>
-            <i class="fas fa-2x fa-solid fa-forward"></i>
+            <i class="fas fa-2x fa-solid fa-backward" id="previous"></i>
+            <i class="fas fa-2x fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fas fa-2x fa-solid fa-forward" id="next"></i>
             
 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif"  width=" 42px" alt="" id="gif">Just me love you-justin
         </div>
       
 
