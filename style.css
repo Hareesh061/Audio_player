@@ -2,7 +2,7 @@
 
 body{
     background-color: antiquewhite;
-   
+    
    
 }
 *{
@@ -40,7 +40,7 @@ nav ul li{
 }
 
 .container{
-    min-height: 70vh;
+    min-height: 58.2vh;
     background-color: black;
     color: white;
     font-family: 'Varela Round', sans-serif;
@@ -72,6 +72,7 @@ nav ul li{
 
 #myProgressBar{
     width: 80vw;
+    cursor: pointer;
     
 }
 
@@ -116,4 +117,20 @@ border-radius: 30px;
 .a{
     text-align: center;
     color: aqua;
+}
+
+.songItemContainer{
+    margin-top: 10px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
 }
