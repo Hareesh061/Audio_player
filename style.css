@@ -38,3 +38,82 @@ nav ul li{
     font-size: 1.3rem;
     font-weight: bolder;
 }
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 60%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    background-size: 100% 100%;
+    justify-content: center;
+
+}
+
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+}
+
+#myProgressBar{
+    width: 80vw;
+    
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.songItem{
+height: 50px;
+display: flex;
+background-color: white;
+width:70%;
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 30px;
+}
+
+
+.songItem img{
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 34px;
+ 
+   
+} 
+
+.timestamp{
+    margin: 0 23px;
+
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.a{
+    text-align: center;
+    color: aqua;
+}
